@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+    font-family: 'Merriweather', serif;
+  }
+
+ a {
+     text-decoration: none;
+ }
+
+ #header .navber {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     padding-left: 20%;
+     padding-right: 20%;
+     background:#E0EBE7;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 2;    
+ }
+
+ #header .navber ul {
+     display: flex;
+     grid-gap: 4rem;
+     padding: 1.4rem;
+     list-style: none;
+     font-size: 2rem;
+     margin-top: 3rem;
+     text-transform: capitalize;
+ }
+
+ #header .navber ul li a {
+     color:#3A9D88 ;
+     padding: 10px 25px;
+   
+ }
+
+ #header .navber ul li a:hover {
+     background:#E0EBE7;
+ }
+
+ #header .navber img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 3rem;
+  
+}
+
+/* main */
+
+  #main .showcase {
+      background: url(./img/hemaloy.jpg.png) no-repeat center center /cover;
+      height: 85vh;
+      margin-top: 9rem;
+  }
+  
+  #main .showcase h1 {
+     font-size: 3rem;
+     text-transform: uppercase;
+     text-align: center;
+     font-style: italic;
+     padding-top: 10rem;
+     
+  }
+
+  #main .showcase p {
+      font-size: 1.5;
+      text-align: center;
+      text-transform: capitalize;
+      line-height: 7rem;
+  }
+
+  /* main-1 */
+
+   #main-1 .showcase-1 {
+       text-align: center;
+       background: #F6D485;
+   }
+
+   #main-1 .showcase-1 img {
+       width: 300px;
+       margin-top: 6rem;
+   }
+
+   #main-1 .showcase-1 h2 {
+       font-size: 3rem;
+       text-transform: capitalize;
+       margin-top: 2rem;
+       margin-bottom: 5rem;
+
+   }
+
+   #main-1 .showcase-1 p {
+       font-size: 1.4rem;
+       text-transform: capitalize;
+       line-height: 2rem;
+       padding: 7rem;
+   
+   }
+
+   /* main-2 */
+
+     .container {
+        max-width: 1900px;
+        margin: auto;
+     }
+
+
+
+     #main-2 .showcase-2 {
+         background: #D6D6D6;
+         padding: 7rem;
+     }
+
+     #main-2 .icon i {
+         text-align: center;
+         padding-left: 48%;
+         font-size: 4rem;
+     }
+
+
+
+   #main-2 .showcase-2 h1 {
+       font-size: 3rem;
+       text-align: center;
+       text-transform: capitalize;
+       margin-bottom: 7rem;
+
+   }
+
+
+   #main-2 .about {
+       display:grid;
+       grid-template-columns: 1fr 1fr;
+       text-align: center;
+   }
+
+   #main-2 .about img {
+       width: 300px;  
+   }
+
+   #main-2 .flex h2 {
+       font-size: 3rem;
+       text-transform: capitalize;
+       line-height: 3rem;
+       padding-right: 10rem;
+       
+   }
+
+   #main-2 .about p {
+        font-size: 1.4rem;
+        line-height: 2rem; 
+        margin-top: 3rem;   
+   }
+
+
+   /* main-3 */
+
+
+#main-3 .showcase-3 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background: #D6D6D6;
+  
+}
+
+#main-3 .showcase-3  img {
+  width: 300px;
+  margin-left: 15rem;
+  margin-bottom: 9rem;
+  
+}
+
+#main-3 .about-1 h2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  line-height: 3rem;
+  padding-left: 5rem;
+ 
+  
+}
+
+#main-3 .about-1 p {
+    font-size: 1.4rem;
+    line-height: 2rem; 
+    margin-top: 3rem; 
+   padding-left: 5rem;
+    
+}
+
+  /* main-4 */
+  #main-4 .showcase-4 {
+      text-align: center;
+  }
+
+  #main-4 .showcase-4 h1  {
+      font-size: 3rem;
+      text-transform: capitalize;
+      padding: 4rem;
+
+  }
+
+  #main-4 .showcase-4 h2 {
+      font-size: 3rem;
+      text-transform: capitalize;
+     
+  }
+
+  #main-4 .showcase-4 p {
+      font-size: 1.2rem;
+      line-height: 4rem;
+  }
+
+  #main-4  a {
+      color: white;
+  }
+
+
+  #main-4  button {
+      font-size: 1.5rem;
+      background:#66BFBF ;
+      padding: 10px 30px;
+      border: none;
+      margin-bottom: 2rem;
+    
+  } 
+
+
+  #main-4  button:hover {
+      background:#53a5a5;  
+
+   }
+
+   /* main-5 */
+   #main-5 .footer {
+       text-align: center;
+       padding: 7rem;
+       background:#66BFBF ;
+   }
+    
+   #main-5 .footer p {
+       font-size: 1.3rem;
+       color: white;
+   }
+
+   #main-5 .footer i {
+      font-size: 3rem;
+      color: white;
+      margin-left: 2rem;
+      margin-bottom: 2rem;
+       
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
